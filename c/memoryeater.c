@@ -29,8 +29,6 @@ int main(int argc, char** argv) {
 
    }
 
-   printf("%d %d %d \n", step_size, max_allocation, wait);
-
   if (wait) {
     printf("Press Any Key to start memory allocation\n");
     getchar();
